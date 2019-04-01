@@ -634,6 +634,7 @@ please preview your site before committing, and make sure to run
 </div> {% comment %} End of 'Python' section. {% endcomment %}
 
 <div id="r"> {% comment %} Start of 'R' section. {% endcomment %}
+{% comment %}
 <h3>R</h3>
 
   <p>
@@ -687,9 +688,11 @@ please preview your site before committing, and make sure to run
       </article>
     </div>
   </div>
+  {% endcomment %}
 </div> {% comment %} End of 'R' section. {% endcomment %}
 
 <div id="sql"> {% comment %} Start of 'SQLite' section. {% endcomment %}
+  {% comment %}
   <h3>SQLite</h3>
 
   <p>
@@ -768,6 +771,7 @@ please preview your site before committing, and make sure to run
   <p><strong>If you installed Anaconda, it also has a copy of SQLite
       <a href="https://github.com/ContinuumIO/anaconda-issues/issues/307">without support to <code>readline</code></a>.
       Instructors will provide a workaround for it if needed.</strong></p>
+      {% endcomment %}
 </div> {% comment %} End of 'SQLite' section. {% endcomment %}
 
 <div id="openrefine"> {% comment %} Start of 'OpenRefine' section. {% endcomment %}
