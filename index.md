@@ -34,14 +34,6 @@ And run 'make workshop-check' *before* committing to make sure that changes are 
 {% comment %}
 For a workshop please delete the following block
 {% endcomment %}
-<div class="alert alert-danger">
-This is the workshop template. Delete these lines and use it to customize your
-own website. If you are running a self-organized workshop or have not put in a
-workshop request yet, please also fill in 
-<a href="{{site.amy_site}}/submit">this workshop request form</a> to let us know
-about your workshop and our administrator may contact you if we need any extra
-information.
-</div>
 
 {% if page.carpentry != site.carpentry %}
 <div class="alert alert-warning">
@@ -99,6 +91,8 @@ workshop is only open to people from a particular institution.
 {% elsif page.carpentry == "lc" %}
 {% include lc/who.html %}
 {% endif %}
+
+Note that class size will be limited to 40 NIST students, staff and associates with students having priority.  Contact Chandler Becker, cbecker@nist.gov, to sign up.  Once the class is full, we will start a waiting list.  If the class is not filled by summer students, NIST staff and associates may participate.
 
 {% comment %}
 LOCATION
