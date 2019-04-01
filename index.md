@@ -634,7 +634,7 @@ please preview your site before committing, and make sure to run
 </div> {% comment %} End of 'Python' section. {% endcomment %}
 
 <div id="r"> {% comment %} Start of 'R' section. {% endcomment %}
-  <h3>R</h3>
+<h3>R</h3>
 
   <p>
     <a href="https://www.r-project.org">R</a> is a programming language
@@ -649,7 +649,7 @@ please preview your site before committing, and make sure to run
       <li role="presentation"><a data-os="macos" href="#rstats-macos" aria-controls="MacOS" role="tab" data-toggle="tab">MacOS</a></li>
       <li role="presentation"><a data-os="linux" href="#rstats-linux" aria-controls="Linux" role="tab" data-toggle="tab">Linux</a></li>
     </ul>
-
+  
     <div class="tab-content">
       <article role="tabpanel" class="tab-pane active" id="rstats-windows">
         <a href="https://www.youtube.com/watch?v=q0PjTAylwoU">Video Tutorial</a>
@@ -771,6 +771,7 @@ please preview your site before committing, and make sure to run
 </div> {% comment %} End of 'SQLite' section. {% endcomment %}
 
 <div id="openrefine"> {% comment %} Start of 'OpenRefine' section. {% endcomment %}
+  {% comment %}
   <h3>OpenRefine</h3>
   <p>
     For this lesson you will need <em>OpenRefine</em> and a
@@ -820,6 +821,7 @@ please preview your site before committing, and make sure to run
       </article>
     </div>
   </div>
+  {% endcomment %}
 </div> {% comment %} End of 'OpenRefine' section. {% endcomment %}
 
 {% comment %}
